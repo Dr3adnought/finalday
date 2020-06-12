@@ -1,0 +1,21 @@
+.grid {
+    height: 96vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+div {
+    border: 1px solid black;    
+}
+
+.col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    #square {
+        height: 450px;
+        width: 450px;
+    }
